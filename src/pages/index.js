@@ -12,13 +12,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">Guias de ayuda</h1>
+        <p className="hero__subtitle">Bievenidos, estas guias tienen el objetivo de ayudarlos en la cursada.</p>
+        <p>Les habla Santiago, si quieres que estemos en contacto, puedes seguirme en mi <a style={{color: "#FFF"}} target='_blank' href='https://www.linkedin.com/in/santiago-quipildorjs/'>LinkedIn</a></p>
+
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/category/github-basics">
+            Quiero ver las guias
           </Link>
         </div>
       </div>
@@ -34,7 +36,6 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
