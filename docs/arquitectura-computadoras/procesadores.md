@@ -12,6 +12,51 @@ sidebar_position: 3
 
 ![Alt text](./img/image-3.png)
 
+## Evolucion historica
+
+los ccomponentes electronicos utilizados para crear un procesador fueron evolucionando a lor largo del tiempo, comenzaron siendo valvulas de vacio y pasaron a ser transistores de silicio
+
+- intel lanza el primer procesador 4004 en 1971
+
+- las primeras computadores utilizan la capacidad de los transistores, para dejar pasar o no la corriente electrica para representar numero binarios, siendo 1 cuando circula corriente
+
+- se diseñaban circuitos digitales, con eso se logro que pudieran hacer operaciones matematicas basicas como logicas
+
+## Componentes de los procesadores
+
+### Encapsulado
+
+El encapsulado es la parte externa microprocesador, que protege la parte interna formada de silicio (nùcleo o chip)
+Protege la parte del núcleo del deterioro y la oxidación externa
+Enfría el núcleo para evitar la acumulación de calor, transfiriendo éste hacia el exterior
+Sirve como soporte de las patillas de conexión
+
+### Unidad de control
+
+Unidad de control (UC)
+La tarea fundamental de la UC es recibir información para interpretarla y procesarla mediante las órdenes que envía a los otros componentes. Para realizar todas estas operaciones, la UC dispone de pequeños espacios de almacenamiento de memoria interna, denominados registros.
+
+### Registros
+
+Son pequeños espacios de memoria que se encargan de tomar los datos de los programas de software y procesarlos en función de los comandos que hayan sido proporcionados. Los registros de un microprocesador son necesarios ya que en ellos se encuentran todos los valores, los comandos, estados binarios y cualquier otra instrucción para llevar a cabo el procesamiento de datos.
+
+### Memoria Caché
+
+Es un tipo de memoria ultrarrápida que está dentro del procesador y es empleada por éste para resolver operaciones previstas en su funcionamiento interno. Por ende, está encapsulada dentro del mismo procesador y opera en varios niveles (L1 L2 y L3).
+
+### ALU
+
+(UAL o coprocesador matemático)
+La parte del procesador especializada en la resolución de cálculos matemáticos y lógicos.
+
+## Procesadores funcionamiento
+
+![Alt text](image-9.png)
+
+## Procesadores rendimiento
+
+![Alt text](image-10.png)
+
 ## Procesadores e 32 y 64 bits
 
 ![Alt text](./img/image-4.png)
